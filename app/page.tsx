@@ -1,3 +1,5 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen overflow-hidden bg-black text-white">
@@ -20,20 +22,7 @@ export default function HomePage() {
           </button>
         </header>
 
-        <section className="pt-24">
-          <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
-            The Universe
-          </p>
-
-          <h2 className="mt-6 max-w-5xl text-6xl font-bold leading-none tracking-tight md:text-8xl">
-            Explore The Planets Beyond Earth.
-          </h2>
-
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-white/60">
-            Discover planets, moons, orbital systems, and fascinating facts
-            about our solar system.
-          </p>
-        </section>
+        <HeroSection />
       </div>
     </main>
   );
