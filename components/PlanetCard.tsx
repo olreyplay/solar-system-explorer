@@ -18,7 +18,12 @@ export default function PlanetCard({ planet }: PlanetCardProps) {
             <h3 className="mt-4 text-4xl font-bold">{planet.name}</h3>
           </div>
 
-          <div className="h-16 w-16 rounded-full bg-[radial-gradient(circle_at_30%_30%,#60a5fa,#1d4ed8,#020617)] shadow-[0_0_40px_rgba(59,130,246,0.45)] transition group-hover:scale-110" />
+          <div
+            className="h-16 w-16 rounded-full shadow-[0_0_40px_rgba(59,130,246,0.45)] transition group-hover:scale-110"
+            style={{
+              background: `radial-gradient(circle at 30% 30%, ${planet.colors.from}, ${planet.colors.via}, ${planet.colors.to})`,
+            }}
+          />
         </div>
 
         <p className="mt-8 leading-7 text-white/60">{planet.description}</p>

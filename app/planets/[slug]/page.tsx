@@ -34,6 +34,15 @@ export default async function PlanetPage({ params }: PlanetPageProps) {
           {planet.description}
         </p>
 
+        <div className="mt-16 flex justify-center">
+          <div
+            className="h-72 w-72 rounded-full shadow-[0_0_140px_rgba(59,130,246,0.35)] md:h-96 md:w-96"
+            style={{
+              background: `radial-gradient(circle at 30% 30%, ${planet.colors.from}, ${planet.colors.via}, ${planet.colors.to})`,
+            }}
+          />
+        </div>
+
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           <div className="rounded-4xl border border-white/10 bg-white/5 p-8">
             <p className="text-sm uppercase tracking-[0.25em] text-white/40">
