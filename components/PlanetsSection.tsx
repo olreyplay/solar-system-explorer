@@ -3,7 +3,7 @@ import { planets } from "@/data/planets";
 
 export default function PlanetsSection() {
   return (
-    <section className="mt-24">
+    <section id="planets" className="mt-24">
       <div>
         <p className="text-sm uppercase tracking-[0.3em] text-blue-400">
           Planets

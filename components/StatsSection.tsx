@@ -2,7 +2,7 @@ import StatCard from "@/components/StatCard";
 
 export default function StatsSection() {
   return (
-    <section className="mt-24 grid gap-6 md:grid-cols-3">
+    <section id="statistics" className="mt-24 grid gap-6 md:grid-cols-3">
       <StatCard label="Planets" value="8" />
 
       <StatCard label="Known Moons" value="290+" />

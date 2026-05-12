@@ -17,13 +17,19 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <button className="rounded-full bg-blue-500 px-8 py-4 text-sm font-semibold transition hover:bg-blue-400">
+            <a
+              href="#planets"
+              className="rounded-full bg-blue-500 px-8 py-4 text-sm font-semibold transition hover:bg-blue-400"
+            >
               Start Exploring
-            </button>
+            </a>
 
-            <button className="rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-semibold backdrop-blur-sm transition hover:bg-white/10">
+            <a
+              href="#statistics"
+              className="rounded-full border border-white/10 bg-white/5 px-8 py-4 text-sm font-semibold backdrop-blur-sm transition hover:bg-white/10"
+            >
               View Statistics
-            </button>
+            </a>
           </div>
         </div>
 

@@ -19,9 +19,12 @@ export default function HomePage() {
             </h1>
           </div>
 
-          <button className="rounded-full border border-white/10 bg-white/5 px-6 py-3 text-sm font-medium backdrop-blur-sm transition hover:bg-white/10">
+          <a
+            href="#planets"
+            className="rounded-full border border-white/10 bg-white/5 px-6 py-3 text-sm font-medium backdrop-blur-sm transition hover:bg-white/10"
+          >
             Explore Space
-          </button>
+          </a>
         </header>
 
         <HeroSection />
