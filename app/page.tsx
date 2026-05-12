@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
+import PlanetsSection from "@/components/PlanetsSection";
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
 
         <HeroSection />
         <StatsSection />
+        <PlanetsSection />
       </div>
     </main>
   );
