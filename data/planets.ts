@@ -1,6 +1,7 @@
 export const planets: Planet[] = [
   {
     id: 1,
+    slug: "mercury",
     name: "Mercury",
     type: "Terrestrial Planet",
     description: "The smallest planet and the closest world to the Sun.",
@@ -9,6 +10,7 @@ export const planets: Planet[] = [
   },
   {
     id: 2,
+    slug: "venus",
     name: "Venus",
     type: "Terrestrial Planet",
     description:
@@ -18,6 +20,7 @@ export const planets: Planet[] = [
   },
   {
     id: 3,
+    slug: "earth",
     name: "Earth",
     type: "Terrestrial Planet",
     description:
@@ -27,6 +30,7 @@ export const planets: Planet[] = [
   },
   {
     id: 4,
+    slug: "mars",
     name: "Mars",
     type: "Terrestrial Planet",
     description:
@@ -36,6 +40,7 @@ export const planets: Planet[] = [
   },
   {
     id: 5,
+    slug: "jupiter",
     name: "Jupiter",
     type: "Gas Giant",
     description:
@@ -45,6 +50,7 @@ export const planets: Planet[] = [
   },
   {
     id: 6,
+    slug: "saturn",
     name: "Saturn",
     type: "Gas Giant",
     description: "A giant planet famous for its bright ring system.",
@@ -53,6 +59,7 @@ export const planets: Planet[] = [
   },
   {
     id: 7,
+    slug: "uranus",
     name: "Uranus",
     type: "Ice Giant",
     description: "A cold blue-green planet that rotates on its side.",
@@ -61,6 +68,7 @@ export const planets: Planet[] = [
   },
   {
     id: 8,
+    slug: "neptune",
     name: "Neptune",
     type: "Ice Giant",
     description:
@@ -72,6 +80,7 @@ export const planets: Planet[] = [
 
 export type Planet = {
   id: number;
+  slug: string;
   name: string;
   type: string;
   description: string;
